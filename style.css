@@ -1,0 +1,185 @@
+    .home{
+       background-image: url(../img/banner.jpg);
+        height: 670px;
+        padding:12px;
+        color:white;
+        opacity:0.4;
+        background-color:rgba(18, 24, 26, 0.5);
+        break-after: page;
+    }
+    .head{
+        display:flex;
+        justify-content:space-around; 
+    }
+    .lists li{
+        display: inline;
+        padding: 4px;
+    }
+   .title{
+       text-align: center;
+       margin-top: 200px;
+       font-style: normal;
+       font-family: arial;
+       font-weight: normal;
+       font-size: 20px;
+   }
+   .content{
+       text-align: unset;
+       margin-left:200px;
+       display: block;
+       float: left;
+          }
+    .content h2{
+        text-align: center;
+    }
+   .style{
+       text-align: unset;
+       margin-left:50px;
+       display: block;
+       border-left: 3px solid white;
+       float: right;
+       margin-right:200px;
+   }
+   .style h2{
+    text-align: center;}
+   .system{
+       display: inline-flex;
+       text-align: unset;
+       margin-left:100px;
+       border-left: 3px solid white;
+       float: left;
+       display: block;
+   }
+   .tag h2{
+    text-align: center;}
+   .text{
+       margin-left: 100px;
+       height: 70px;
+   }
+   .tag{
+       margin-left: 100px;
+       height:70px;
+   }
+   .button{
+       margin:100px;
+       margin-left: 200px;
+       text-transform: uppercase;
+       color:white;
+       display:inline-block;
+       border: 3px solid white;
+       border-radius: 30px;
+       font-family: arial;
+       font-weight: bold;
+       padding:12px;
+   }
+   .button:hover{
+       background-color: green;
+       text-align: center;
+       cursor:pointer;
+   }
+  
+  .heading{
+      text-decoration: antiquewhite;
+      font-display: arial;
+      font-style: arial;
+      font-family: Arial, Helvetica, sans-serif;
+      text-align: center;
+       
+  }
+.info{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+    margin-left: 100px;
+    text-align: center;
+    font-size: normal;
+    text-decoration: dimgray;
+    text-transform: capitalize;
+    opacity: 0.6;
+    text-align: center;
+}
+.phone{
+    margin-right: 100px;
+
+
+}
+.phone p{
+    width:300px;
+    text-transform: lowercase;
+    text-align: center;
+}
+.camera p{
+    width:300px;
+    text-transform: lowercase;
+    text-align: center;
+    margin-left: 50px;
+}
+.camera{
+    margin-right: 100px;
+}
+.image{
+    border:white;
+    border-radius: 100px;
+}
+.learn{
+    color:green;
+    margin: 50px;
+    border:3px solid green;
+    border-radius: 25px;
+    padding:15px;
+    text-transform: uppercase;
+    text-align: center;
+    background-color: white;
+}
+.learn:hover{
+    cursor:pointer;
+    background-color: azure;
+}
+
+.get{
+    margin:auto;
+    background-color: aquamarine;
+    opacity: 0.8;
+    height: auto;
+    text-decoration: white;
+    text-transform: capitalize;
+    justify-content: space-between;
+    border-radius: 5px;
+    padding: 20px;
+}
+.touch{
+    text-align: center;
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.send{
+        color:white;
+        margin: 50px;
+        border-radius: 20px;
+        padding:10px;
+        text-transform: uppercase;
+        text-align: center;
+        margin-left:600px;
+        background-color: aquamarine;
+         border: 2px solid white;
+    }
+    .send:hover{
+        cursor:pointer;
+        background-color:green;
+    }
+    input[type=text], select, textarea {
+        width: 100%; 
+        padding: 12px; 
+        border: 1px solid white;
+        border-radius: 10px; 
+        box-sizing: border-box; 
+        margin-top: 6px;
+        margin-bottom: 16px; 
+        resize: vertical ;
+        background-color: aquamarine;
+        text-decoration: white;
+    }
+      .container {
+        border-radius: 5px;
+        background-color: #f2f2f2;
+        padding: 20px;}
